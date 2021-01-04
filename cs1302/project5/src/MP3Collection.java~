@@ -1,0 +1,90 @@
+import java.util.Scanner;
+import java.io.File;
+import java.util.ListIterator;
+import edu.uga.cs1302.mp3files.*;
+import edu.uga.cs1302.util.*;
+
+public class MP3Collection {
+
+    public static void help() {
+	System.out.println("n - move to the next file");
+	System.out.println("b - move to the previous file");
+	System.out.println("i - print the information about the current file");
+	System.out.println("p - play the current file");
+	System.out.println("h - print the short help info about these commands");
+	System.out.println("q - quit the program");
+    } // help
+    
+    public static void main (String[] args) {
+
+	String pathname;
+	Scanner scan = new Scanner(System.in);
+	if (args.length == 0) {
+	    System.out.println("Provide a path for a directory containing MP3 files (ends with .mp3)");
+	    pathname = scan.nextLine();
+	} // if
+	else {
+	    pathname = args[0];
+	} // else
+	
+	File dir = new File(pathname);
+	File[] files;
+	if (dir.isDirectory()) {
+	    files = dir.listFiles();
+	} // if
+	SimpleLinkedList<MP3File> mp3files = new SimpleLinkedList<MP3File>();
+	for (File file : files) {
+	    mp3files.add(new MP3File(file.getAbsolutePath()));
+	} // for each
+
+	ListIterator<MP3File> iterator = mp3files.listIterator(0);
+	MP3File curr = null;
+	int count = 1;
+	while (iterator.hasNext()) {
+	    curr = iterator.next();
+	    System.out.println(count + ". " + curr.toString());
+	    count++;
+	} // while
+
+	iterator = mp3files.listIterator(0);
+	curr = iterator.next();
+	String command;
+	while (true) {
+	    help();
+	    command = scan.nextLine();
+	    switch (command) {
+	    case "n":
+		if (iterator.hasNext()) {
+		    curr = iterator.next();
+		} // if
+		else {
+		    System.out.println("end of the list");
+		} // else
+		break;
+	    case "b":
+		if (iterator.hasPrevious()) {
+		    curr = iterator.previous();
+		} // if
+		else {
+		    System.out.println("beginning of the list");
+		} // else
+		break;
+	    case "i":
+		curr.toString();
+		break;
+	    case "p":
+		curr.play();
+		break;
+	    case "h":
+		help();
+		break;
+	    case "q":
+		System.exit(0);
+	    default:
+		System.out.println("Invalid command");
+	    } // switch
+	} // while
+	
+    } // main
+    
+} // class

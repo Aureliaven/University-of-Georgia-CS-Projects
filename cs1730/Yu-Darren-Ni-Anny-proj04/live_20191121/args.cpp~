@@ -1,0 +1,17 @@
+#include <unistd.h>
+
+using namespace std;
+
+int main(int argc, char* argv[]) {
+  if (argv[1] == NULL) {
+    return 0;
+  } else {
+    char * args[argc];
+    for (int i = 1; i < argc; i++) {
+      args[i - 1] = argv[i];
+    }
+    args[argc] = NULL;
+    execvp(args[0], args);
+  }
+  return 0;
+}

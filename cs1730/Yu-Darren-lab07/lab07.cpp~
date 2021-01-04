@@ -1,0 +1,48 @@
+#include <iostream>
+#include <cstdlib>
+#include <string>
+using namespace std;
+
+int * p;
+
+/*
+ * Return the sum of the n values in x starting at index 0.
+ * Note:  x is a pointer to an array of ints.  
+ * If x is null, then return -1.
+ * If n is 0 and x is not null, then return 0.
+ */
+int sum(int * x, int n);
+
+int main(int argc, char * argv[]){
+  int * x = new int[argc];
+  if (argc > 1) {
+    for(int i = 1; i < argc; i++){
+      x[i - 1] = atoi(argv[i]);
+    } // for
+  } // if
+  
+  cout << "*x is " << (*x) << endl;
+  int y = sum(x, argc);
+  cout << "y is " << y << endl;
+  int z = sum(p, argc);
+  cout << "z is " << z << endl;
+  delete x;
+
+  return EXIT_SUCCESS;
+}
+
+int sum(int * x, int n){
+  if (!x) {
+    return -1;
+  } // if
+  if (n == 1 && x) {
+    return 0;
+  } // if
+  int sum = 0;
+  for(int i = 0; i < n - 1; i++){
+    sum += x[i]; 
+  }
+  return sum;
+}
+
+

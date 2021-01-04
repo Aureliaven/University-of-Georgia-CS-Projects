@@ -1,0 +1,14 @@
+Darren Yu (811009973)
+
+Compile:
+make compile
+
+Run:
+make run
+OR
+./lab06.out
+
+Group Brainstorm
+
+A bubble sort can be implemented using two for loops which compare each
+pair of elements in the generic sort algorithm

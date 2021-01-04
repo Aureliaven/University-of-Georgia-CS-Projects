@@ -1,0 +1,6 @@
+package edu.uga.cs1302.txtbuff;
+
+public class TextLineIndexOutOfBoundsException extends
+						   IndexOutOfBoundsException {
+    
+} // class

@@ -1,0 +1,35 @@
+IsEmpty 
+IsFull 
+PutItem 81012 Eman
+PrintList
+PutItem 81121 Prasanth
+IsEmpty
+PrintList
+PutItem 82385 Farzan
+DeleteItem 81121
+IsFull
+GetAt 1
+GetLength
+DeleteItem 82385
+PutItem 81001 John
+PutItem 82887 Thomas
+PutItem 81056 Roger
+PutItem 81321 Johnathan
+PutItem 82877 Tom
+PutItem 81706 Roman
+PutItem 81721 Johnny
+PutItem 82817 Zane
+PutItem 81709 Rand
+PrintList
+IsFull
+GetAt 3
+PutItem 81523 Kaldor
+DeleteItem 81721
+PrintList
+PutItem 82817 Eman
+MakeEmpty
+IsEmpty
+GetLength
+PrintList
+Error
+Quit

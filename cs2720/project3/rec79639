@@ -1,0 +1,19 @@
+project3:
+total 348
+-rwxr-xr-x 1 ugrad 110090 Mar  5 23:40 bank
+-rw-r--r-- 1 ugrad   1564 Mar  5 23:39 BankSimulation.cpp
+-rw-r--r-- 1 ugrad 123376 Mar  5 23:40 BankSimulation.o
+-rw-r--r-- 1 ugrad    769 Mar  5 23:14 Customer.cpp
+-rw-r--r-- 1 ugrad    436 Mar  5 23:02 Customer.h
+-rw-r--r-- 1 ugrad    285 Mar  5 23:44 input.txt
+-rw-r--r-- 1 ugrad    465 Mar  5 23:00 Makefile
+-rw-r--r-- 1 ugrad    254 Mar  5 23:44 output.txt
+-rw-r--r-- 1 ugrad   2502 Mar  5 22:48 PriorityQueue.cpp
+-rw-r--r-- 1 ugrad   1704 Mar  4 22:57 PriorityQueue.h
+-rw-r--r-- 1 ugrad  35904 Mar  5 23:00 PriorityQueue.o
+-rw-r--r-- 1 ugrad   3181 Mar  4 22:57 QueType.cpp
+-rw-r--r-- 1 ugrad   1660 Mar  4 22:57 QueType.h
+-rw-r--r-- 1 ugrad  35872 Mar  5 23:00 QueType.o
+-rw-r--r-- 1 ugrad     99 Mar  5 23:40 README.txt
+-rw-r--r-- 1 ugrad      0 Mar  5 23:46 rec79639
+/home/ugrads/darren/cs2720/project3:/home/work/cs2720a

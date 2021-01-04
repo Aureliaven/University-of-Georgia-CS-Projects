@@ -1,0 +1,11 @@
+0
+list is empty
+List Items: e c p a 
+List Items: e c p a f 
+List is not full
+Item is not in the list
+List is not full
+List Items: f 
+list is empty
+List Items: 
+Unrecognized command

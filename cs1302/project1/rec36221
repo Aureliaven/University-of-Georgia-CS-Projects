@@ -1,0 +1,16 @@
+cs1302/project1:
+total 8
+drwxr-xr-x 2 ugrad 4096 Jun 12 21:06 bin
+-rw-r--r-- 1 ugrad    0 Jun 12 21:11 rec36221
+drwxr-xr-x 2 ugrad 4096 Jun 12 21:10 src
+
+cs1302/project1/bin:
+total 8
+-rw-r--r-- 1 ugrad 949 Jun 12 21:01 ident.jar
+-rw-r--r-- 1 ugrad 666 Jun 12 21:06 User.class
+
+cs1302/project1/src:
+total 8
+-rw-r--r-- 1 ugrad 328 Jun 12 21:10 User.java
+-rw-r--r-- 1 ugrad 209 Jun 12 21:06 User.java~
+/home/ugrads/darren/cs1302/project1:/home/work/cs1302a

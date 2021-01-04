@@ -1,0 +1,16 @@
+CC = g++
+DEBUG = -g
+CFLAGS = -Wall -pedantic-errors -std=c++14 $(DEBUG)
+LFLAGS = -Wall $(DEBUG)
+
+compile: rectangle
+
+lab09.out: rectangle.cpp
+	$(CC) $(CFLAGS) -o rectangle rectangle.cpp
+
+run: rectangle
+	./rectangle
+
+clean:
+	rm rectangle
+

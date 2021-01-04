@@ -1,0 +1,17 @@
+Darren Yu (811009973)
+
+Used debugger to step through the program and check the value of variables
+
+Compile:
+
+make compile
+
+Run:
+
+make run
+OR
+./lab07.out [arguments}
+
+Clean:
+
+make clean

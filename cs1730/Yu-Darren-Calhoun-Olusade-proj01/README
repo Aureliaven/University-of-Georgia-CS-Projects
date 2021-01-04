@@ -1,0 +1,7 @@
+Darren Yu (811009973) and Olsuade Calhoun (811345708)
+
+Compile: make compile
+
+Run: make run
+OR
+./proj1.out [-a | -b] -v [5 integers] -e [integer to evaluate to]

@@ -1,0 +1,18 @@
+project2SP2020:
+total 296
+-rw-r--r-- 1 ugrad     15 Jan 31 22:49 intcommands1.txt~
+-rw-r--r-- 1 ugrad    337 Jan 22 22:43 intcommands.txt
+-rwxr-xr-x 1 ugrad  90889 Jan 31 23:28 list
+-rw-r--r-- 1 ugrad    351 Jan 31 22:39 Makefile
+-rw-r--r-- 1 ugrad    352 Jan 31 22:35 Makefile~
+-rw-r--r-- 1 ugrad    658 Jan 31 23:28 outFile.txt
+-rw-r--r-- 1 ugrad      0 Jan 31 23:29 rec56127
+-rw-r--r-- 1 ugrad   3476 Jan 31 23:28 SortedList.cpp
+-rw-r--r-- 1 ugrad   3563 Jan 31 23:13 SortedList.cpp~
+-rw-r--r-- 1 ugrad   6425 Jan 31 22:58 SortedListDr.cpp
+-rw-r--r-- 1 ugrad   6426 Jan 31 22:54 SortedListDr.cpp~
+-rw-r--r-- 1 ugrad 117936 Jan 31 23:14 SortedListDr.o
+-rw-r--r-- 1 ugrad   2143 Jan 30 14:14 SortedList.h
+-rw-r--r-- 1 ugrad   2143 Jan 30 14:09 SortedList.h~
+-rw-r--r-- 1 ugrad  35904 Jan 31 23:28 SortedList.o
+/home/ugrads/darren/cs2720/project2SP2020:/home/work/cs2720a

@@ -1,0 +1,22 @@
+Yu-Darren-lab10:
+total 88
+-rwxr-xr-x 1 ugrad 10173 Nov 17 22:37 firstline
+-rw-r--r-- 1 ugrad   436 Nov 17 22:37 firstline.c
+-rw-r--r-- 1 ugrad   422 Nov 17 22:05 firstline.c~
+-rw-r--r-- 1 ugrad   310 Nov 12 08:29 lab10test.tar.gz
+-rwxr-xr-x 1 ugrad 10328 Nov 17 22:37 longestline
+-rw-r--r-- 1 ugrad   546 Nov 17 22:37 longestline.c
+-rw-r--r-- 1 ugrad   532 Nov 17 22:14 longestline.c~
+-rw-r--r-- 1 ugrad   171 Nov 17 21:27 Makefile
+-rw-r--r-- 1 ugrad   123 Nov 17 16:17 Makefile~
+-rw-r--r-- 1 ugrad   109 Nov 17 15:37 README
+-rw-r--r-- 1 ugrad   962 Nov 17 22:16 rec66339
+-rw-r--r-- 1 ugrad     0 Nov 17 22:39 rec80694
+-rw-r--r-- 1 ugrad    11 Sep 11  2018 testfive
+-rw-r--r-- 1 ugrad    13 Sep 11  2018 testfour
+-rw-r--r-- 1 ugrad    25 Sep 11  2018 testone
+-rw-r--r-- 1 ugrad    16 Sep 11  2018 testseven
+-rw-r--r-- 1 ugrad     4 Sep 11  2018 testsix
+-rw-r--r-- 1 ugrad    12 Sep 11  2018 testthree
+-rw-r--r-- 1 ugrad    24 Sep 11  2018 testtwo
+/home/ugrads/darren/cs1730/Yu-Darren-lab10:/home/work/cs1730c

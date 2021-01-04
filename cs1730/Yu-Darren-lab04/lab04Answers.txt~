@@ -1,0 +1,23 @@
+1. The character stored in the fifth byte of s1 is \0 or a null byte. In a
+C-string (char[]) the null byte is added by the compiler to indicate where
+the string terminates.
+
+2. The binary equality operator does not do element-wise comparison on the
+char arrays; thus, it simply checks if the arrays are the exact same object by
+comparing their memory addresses.
+
+3. The binary equality operator compares the content of string literals, and
+thus works as we expect it to, unlike how it works with arrays.
+
+4. The values of v are all 8 because the array d contains doubles, which take
+8 bytes of memory each, causing the differences of their memory addresses to
+each be 8.
+
+5. A char* was used that pointed to the address of the first element, which was
+set to 'j'. Then a pointer was used to modify the fourth element to set it to
+'s'.
+
+6. The value of s5 was "zoey\0 is awesome". "\0" is a null byte which indicates
+the termination of a string, so only "zoey" was considered part of the string.
+
+7. 

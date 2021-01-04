@@ -1,0 +1,6 @@
+To compile:
+make compile
+To run:
+make run
+OR
+./lab02 [-c | -d] [DNA string | integer compression]

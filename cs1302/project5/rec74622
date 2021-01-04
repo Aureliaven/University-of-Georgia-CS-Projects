@@ -1,0 +1,84 @@
+project5:
+total 12
+drwxr-xr-x 3 ugrad 4096 Jul 22 23:51 bin
+drwxr-xr-x 2 ugrad 4096 Jul 22 22:15 lib
+-rw-r--r-- 1 ugrad    0 Jul 22 23:58 rec74622
+drwxr-xr-x 3 ugrad 4096 Jul 22 23:51 src
+
+project5/bin:
+total 8
+drwxr-xr-x 3 ugrad 4096 Jul 22 00:27 edu
+-rw-r--r-- 1 ugrad 2731 Jul 22 23:51 MP3Collection.class
+
+project5/bin/edu:
+total 4
+drwxr-xr-x 3 ugrad 4096 Jul 22 00:27 uga
+
+project5/bin/edu/uga:
+total 4
+drwxr-xr-x 4 ugrad 4096 Jul 22 23:36 cs1302
+
+project5/bin/edu/uga/cs1302:
+total 8
+drwxr-xr-x 2 ugrad 4096 Jul 22 23:40 mp3files
+drwxr-xr-x 2 ugrad 4096 Jul 22 00:28 util
+
+project5/bin/edu/uga/cs1302/mp3files:
+total 20
+-rw-r--r-- 1 ugrad 2801 Jul 22 23:40 MP3File.class
+-rw-r--r-- 1 ugrad  223 Jul 22 23:36 MP3Player$1.class
+-rw-r--r-- 1 ugrad 1675 Jul 22 23:36 MP3Player.class
+-rw-r--r-- 1 ugrad 1351 Jul 22 23:36 MP3Player$MP3Controller.class
+-rw-r--r-- 1 ugrad 1643 Jul 22 23:36 MP3Player$MP3Thread.class
+
+project5/bin/edu/uga/cs1302/util:
+total 20
+-rw-r--r-- 1 ugrad 3993 Jul 22 13:55 SimpleLinkedList.class
+-rw-r--r-- 1 ugrad  851 Jul 22 13:55 SimpleLinkedList$Node.class
+-rw-r--r-- 1 ugrad 2800 Jul 22 13:55 SimpleLinkedList$SimpleLinkedListIterator.class
+-rw-r--r-- 1 ugrad 1620 Jul 22 22:40 SimpleLinkedListTester.class
+-rw-r--r-- 1 ugrad  570 Jul 22 00:27 SimpleList.class
+
+project5/lib:
+total 588
+-rw-r--r-- 1 ugrad  45024 Jul 21 22:51 hamcrest-core-1.3.jar
+-rw-r--r-- 1 ugrad 105363 Jul 22 22:15 jl1.0.1.jar
+-rw-r--r-- 1 ugrad 314932 Jul 21 22:51 junit-4.12.jar
+-rw-r--r-- 1 ugrad  24696 Jul 22 22:15 mp3spi1.9.5.jar
+-rw-r--r-- 1 ugrad 102673 Jul 22 22:15 tritonus_share.jar
+
+project5/src:
+total 12
+drwxr-xr-x 3 ugrad 4096 Jul 21 15:25 edu
+-rw-r--r-- 1 ugrad 2176 Jul 22 23:51 MP3Collection.java
+-rw-r--r-- 1 ugrad 2169 Jul 22 23:51 MP3Collection.java~
+
+project5/src/edu:
+total 4
+drwxr-xr-x 3 ugrad 4096 Jul 21 15:25 uga
+
+project5/src/edu/uga:
+total 4
+drwxr-xr-x 4 ugrad 4096 Jul 21 15:25 cs1302
+
+project5/src/edu/uga/cs1302:
+total 8
+drwxr-xr-x 2 ugrad 4096 Jul 22 23:40 mp3files
+drwxr-xr-x 2 ugrad 4096 Jul 22 22:40 util
+
+project5/src/edu/uga/cs1302/mp3files:
+total 16
+-rw-r--r-- 1 ugrad 3730 Jul 22 23:40 MP3File.java
+-rw-r--r-- 1 ugrad 3734 Jul 22 23:38 MP3File.java~
+-rw-r--r-- 1 ugrad 2248 Jul 22 22:22 MP3Player.java
+-rw-r--r-- 1 ugrad 2215 Jul 22 22:19 MP3Player.java~
+
+project5/src/edu/uga/cs1302/util:
+total 40
+-rw-r--r-- 1 ugrad 10278 Jul 22 13:55 SimpleLinkedList.java
+-rw-r--r-- 1 ugrad 10302 Jul 22 13:53 SimpleLinkedList.java~
+-rw-r--r-- 1 ugrad  1872 Jul 22 22:40 SimpleLinkedListTester.java
+-rw-r--r-- 1 ugrad  1881 Jul 22 22:39 SimpleLinkedListTester.java~
+-rw-r--r-- 1 ugrad  2738 Jul 22 00:27 SimpleList.java
+-rw-r--r-- 1 ugrad  2709 Jul 21 22:55 SimpleList.java~
+/home/ugrads/darren/cs1302/project5:/home/work/cs1302a

@@ -1,0 +1,5 @@
+IsEmpty
+IsFull
+PutItem 3
+PrintList
+Quit

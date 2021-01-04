@@ -1,0 +1,28 @@
+project1SP2020:
+total 408
+-rw-r--r-- 1 ugrad    236 Jan 12 20:27 chcommands.txt
+-rw-r--r-- 1 ugrad     40 Jan 22 23:16 intcommands1.txt
+-rw-r--r-- 1 ugrad     30 Jan 22 23:15 intcommands1.txt~
+-rw-r--r-- 1 ugrad    294 Jan 22 23:02 intcommands.txt
+-rw-r--r-- 1 ugrad    300 Jan 22 22:59 intcommands.txt~
+-rw-r--r-- 1 ugrad    488 Jan 22 23:10 Makefile
+-rw-r--r-- 1 ugrad    436 Jan 22 21:28 Makefile~
+-rw-r--r-- 1 ugrad    180 Jan 22 23:25 outFile.txt
+-rw-r--r-- 1 ugrad    125 Jan 22 22:36 outFile.txt~
+-rw-r--r-- 1 ugrad     87 Jan 22 23:25 README.txt
+-rw-r--r-- 1 ugrad      0 Jan 22 23:27 rec43368
+-rw-r--r-- 1 ugrad    524 Jan 22 22:48 studcommands.txt
+-rw-r--r-- 1 ugrad    535 Jan 22 22:46 studcommands.txt~
+-rw-r--r-- 1 ugrad    549 Jan 22 22:32 Student.cpp
+-rw-r--r-- 1 ugrad    534 Jan 22 21:47 Student.cpp~
+-rw-r--r-- 1 ugrad  26024 Jan 22 23:20 Student.o
+-rwxr-xr-x 1 ugrad 113890 Jan 22 23:24 ulist
+-rw-r--r-- 1 ugrad   1906 Jan 22 23:19 UnsortedList.cpp
+-rw-r--r-- 1 ugrad   1922 Jan 22 22:50 UnsortedList.cpp~
+-rw-r--r-- 1 ugrad   7260 Jan 22 23:24 UnsortedListDriver.cpp
+-rw-r--r-- 1 ugrad   7287 Jan 22 23:17 UnsortedListDriver.cpp~
+-rw-r--r-- 1 ugrad 154872 Jan 22 23:24 UnsortedListDriver.o
+-rw-r--r-- 1 ugrad   1675 Jan 22 21:51 UnsortedList.h
+-rw-r--r-- 1 ugrad   1680 Jan 22 21:33 UnsortedList.h~
+-rw-r--r-- 1 ugrad  26016 Jan 22 23:20 UnsortedList.o
+/home/ugrads/darren/cs2720/project1SP2020:/home/work/cs2720a

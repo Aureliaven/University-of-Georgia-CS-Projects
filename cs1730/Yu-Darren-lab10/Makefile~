@@ -1,0 +1,7 @@
+compile:
+	gcc -Wall firstline.c -o firstline
+	gcc -Wall longestline.c -o longestline
+
+clean:
+	rm firstline
+	rm longestline

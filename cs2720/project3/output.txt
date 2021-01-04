@@ -1,0 +1,10 @@
+Customer2 0 wait service 80
+Customer1 0 wait service 95
+Customer3 0 wait service 184
+Customer5 27 wait service 148
+Customer6 9 wait service 177
+Customer3 0 wait service 184
+Customer8 75 wait service 133
+Customer6 9 wait service 177
+Customer3 0 wait service 184
+Average wait time = 53.75

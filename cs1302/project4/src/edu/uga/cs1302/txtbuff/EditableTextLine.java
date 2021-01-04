@@ -1,0 +1,131 @@
+package edu.uga.cs1302.txtbuff;
+
+/** Represents an {@code TextLine} that may invoke the {@code append()},
+ * {@code insert()}, and {@code replace()} methods. Contains an array
+ * of {@code char} elements which represent a String.
+ */
+public class EditableTextLine extends TextLine implements Editable {
+
+    /** Default constructor, calls the parent constructor with
+     * no parameters
+     */
+    public EditableTextLine() {
+	super();
+    } // default constructor
+
+    /** Constructor, calls the parent constructor with one String
+     * parameter
+     * @param line - the String that the object will represent
+     */
+    public EditableTextLine(String line) {
+	super(line);
+    } // constructor
+
+    /** Appends the given String to the end of the {@code EditableTextLine}
+     * object.
+     * @param fragment - the String to be appended
+     */
+    public void append(String fragment) {
+	if (fragment == "") {
+	    return;
+	} // if
+	char[] newArray = new char[DEFAULT_SIZE];
+	while(this.length() + fragment.length() > newArray.length) {
+	    newArray = new char[newArray.length + DEFAULT_SIZE];
+	} // while
+	int i, j;
+	for (i = 0; i < this.length(); i++) {
+	    newArray[i] = this.array[i];
+	} // for
+	this.length = this.length() + fragment.length();
+	for (j = 0; i < this.length();i++, j++) {
+	    newArray[i] = fragment.charAt(j);
+	} // for
+	this.array = newArray;
+    } // append
+
+    /** Inserts the given String at the given index, shifting the characters
+     * to the right of the index to the right
+     * @param index - the index at which the String is inserted
+     * @param fragment - the String to be inserted
+     */
+    public void insert(int index, String fragment)
+	throws TextLineIndexOutOfBoundsException {
+	if (index < 0 || index > this.length()) {
+	    throw new TextLineIndexOutOfBoundsException(index);
+	} // if
+	if (fragment == "") {
+	    return;
+	} // if
+       	char[] newArray = new char[DEFAULT_SIZE];
+	while(this.length() + fragment.length() > newArray.length) {
+	    newArray = new char[newArray.length + DEFAULT_SIZE];
+	} // while
+	char[] head = new char[index];
+	char[] tail = new char[this.length() - index];
+	int i, j;
+	for (i = 0; i < index; i++) {
+	    head[i] = this.array[i];
+	} // for
+	for (j = 0; i < this.length(); i++, j++) {
+	    tail[j] = this.array[i];
+	} // for
+	for (i = 0; i < head.length; i++) {
+	    newArray[i] = head[i];
+	} // for
+	for (i = index; i < index + fragment.length(); i++) {
+	    newArray[i] = fragment.charAt(i - index);
+	} // for
+	for (j = 0; i < index + fragment.length() +
+		 tail.length; i++, j++) {
+	    newArray[i] = tail[j];
+	} // for
+	this.length = this.length() + fragment.length();
+	this.array = newArray;
+    } // insert
+
+    /** Replaces the characters from {@code start} (inclusive) to {@code end}
+     * (exclusive) with the given String and shifts the displaced characters
+     * to the right.
+     * @param start - the starting index of the replaced characters
+     * @param end - the ending index of the replaced characters
+     * @param fragment - the String to replace the given indices
+     */
+    public void replace(int start, int end, String fragment)
+	throws TextLineIndexOutOfBoundsException {
+	if (start < 0 || end < 0 || start > this.length() ||
+	    end > this.length() + 1 || start > end) {
+	    throw new TextLineIndexOutOfBoundsException("Invalid index");
+	} // if
+	if (fragment == "") {
+	    return;
+	} // if
+       	char[] newArray = new char[DEFAULT_SIZE];
+	while(this.length() - (end - start) + fragment.length() >
+	      newArray.length) {
+	    newArray = new char[newArray.length + DEFAULT_SIZE];
+	} // while
+	char[] head = new char[start];
+	char[] tail = new char[this.length() - end];
+	int i;
+	for (i = 0; i < start; i++) {
+	    head[i] = this.array[i];
+	} // for
+	for (i = end; i < this.length(); i++) {
+	    tail[i - end] = this.array[i];
+	} // for
+	for (i = 0; i < head.length; i++) {
+	    newArray[i] = head[i];
+	} // for
+	for (; i < start + fragment.length(); i++) {
+	    newArray[i] = fragment.charAt(i - start);
+	} // for
+	for (; i < start + fragment.length() +
+		 tail.length; i++) {
+	    newArray[i] = tail[i - start - fragment.length()];
+	} // for
+	this.length = this.length() - (end - start) + fragment.length();
+	this.array = newArray;
+    } // replace
+
+} // class

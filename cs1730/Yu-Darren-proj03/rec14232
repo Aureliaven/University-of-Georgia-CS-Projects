@@ -1,0 +1,16 @@
+Yu-Darren-proj03:
+total 192
+-rw-r--r-- 1 ugrad   275 Nov 10 18:32 Makefile
+-rw-r--r-- 1 ugrad   274 Nov 10 18:27 Makefile~
+-rw-r--r-- 1 ugrad  3496 Nov 10 22:42 Matrix.cpp
+-rw-r--r-- 1 ugrad  3493 Nov 10 22:38 Matrix.cpp~
+-rw-r--r-- 1 ugrad  3243 Nov 10 22:54 Matrix.h
+-rw-r--r-- 1 ugrad  2352 Nov 10 21:53 Matrix.h~
+-rw-r--r-- 1 ugrad 51200 Nov 10 22:59 Matrix.o
+-rwxr-xr-x 1 ugrad 55893 Nov 10 23:10 p3
+-rw-r--r-- 1 ugrad  1059 Nov 10 23:10 p3.cpp
+-rw-r--r-- 1 ugrad   979 Nov 10 23:09 p3.cpp~
+-rw-r--r-- 1 ugrad 45552 Nov 10 23:10 p3.o
+-rw-r--r-- 1 ugrad    87 Nov 10 19:11 README
+-rw-r--r-- 1 ugrad     0 Nov 10 23:12 rec14232
+/home/ugrads/darren/cs1730/Yu-Darren-proj03:/home/work/cs1730c

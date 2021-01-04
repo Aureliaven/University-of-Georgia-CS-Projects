@@ -1,0 +1,75 @@
+project2:
+total 8
+drwxr-xr-x 3 ugrad 4096 Jun 29 18:25 bin
+-rw-r--r-- 1 ugrad    0 Jun 29 19:08 rec69319
+drwxr-xr-x 3 ugrad 4096 Jun 25 10:16 src
+
+project2/bin:
+total 4
+drwxr-xr-x 3 ugrad 4096 Jun 29 18:25 edu
+
+project2/bin/edu:
+total 4
+drwxr-xr-x 3 ugrad 4096 Jun 29 18:25 uga
+
+project2/bin/edu/uga:
+total 4
+drwxr-xr-x 3 ugrad 4096 Jun 29 18:25 cs1302
+
+project2/bin/edu/uga/cs1302:
+total 4
+drwxr-xr-x 2 ugrad 4096 Jun 29 18:56 vehicles
+
+project2/bin/edu/uga/cs1302/vehicles:
+total 44
+-rw-r--r-- 1 ugrad 1606 Jun 29 19:01 Airplane.class
+-rw-r--r-- 1 ugrad 1059 Jun 29 19:01 Automobile.class
+-rw-r--r-- 1 ugrad  178 Jun 29 18:42 Floatable.class
+-rw-r--r-- 1 ugrad  226 Jun 29 18:41 Flyable.class
+-rw-r--r-- 1 ugrad 1858 Jun 29 19:01 FlyingShip.class
+-rw-r--r-- 1 ugrad 1370 Jun 29 19:01 Ship.class
+-rw-r--r-- 1 ugrad 1054 Jun 29 19:01 Train.class
+-rw-r--r-- 1 ugrad  238 Jun 29 18:33 Transporter.class
+-rw-r--r-- 1 ugrad 5698 Jun 29 19:01 VehicleBrowser.class
+-rw-r--r-- 1 ugrad 2013 Jun 29 19:01 Vehicle.class
+
+project2/src:
+total 4
+drwxr-xr-x 3 ugrad 4096 Jun 25 10:18 edu
+
+project2/src/edu:
+total 4
+drwxr-xr-x 3 ugrad 4096 Jun 25 10:18 uga
+
+project2/src/edu/uga:
+total 4
+drwxr-xr-x 3 ugrad 4096 Jun 25 10:18 cs1302
+
+project2/src/edu/uga/cs1302:
+total 4
+drwxr-xr-x 2 ugrad 4096 Jun 29 19:08 vehicles
+
+project2/src/edu/uga/cs1302/vehicles:
+total 92
+-rw-r--r-- 1 ugrad 1534 Jun 29 18:42 Airplane.java
+-rw-r--r-- 1 ugrad 1492 Jun 29 18:40 Airplane.java~
+-rw-r--r-- 1 ugrad  770 Jun 29 19:00 Automobile.java
+-rw-r--r-- 1 ugrad  762 Jun 29 18:39 Automobile.java~
+-rw-r--r-- 1 ugrad  141 Jun 29 11:40 Floatable.java
+-rw-r--r-- 1 ugrad   33 Jun 25 10:20 Floatable.java~
+-rw-r--r-- 1 ugrad  212 Jun 29 11:39 Flyable.java
+-rw-r--r-- 1 ugrad   33 Jun 25 10:20 Flyable.java~
+-rw-r--r-- 1 ugrad 1938 Jun 29 18:59 FlyingShip.java
+-rw-r--r-- 1 ugrad 1930 Jun 29 18:45 FlyingShip.java~
+-rw-r--r-- 1 ugrad  594 Jun 29 19:08 README.txt
+-rw-r--r-- 1 ugrad 1180 Jun 29 19:00 Ship.java
+-rw-r--r-- 1 ugrad 1172 Jun 29 18:43 Ship.java~
+-rw-r--r-- 1 ugrad  781 Jun 29 19:00 Train.java
+-rw-r--r-- 1 ugrad  773 Jun 29 18:41 Train.java~
+-rw-r--r-- 1 ugrad  211 Jun 29 18:31 Transporter.java
+-rw-r--r-- 1 ugrad  218 Jun 29 11:37 Transporter.java~
+-rw-r--r-- 1 ugrad 5088 Jun 29 18:57 VehicleBrowser.java
+-rw-r--r-- 1 ugrad 5080 Jun 29 18:56 VehicleBrowser.java~
+-rw-r--r-- 1 ugrad 2062 Jun 29 18:51 Vehicle.java
+-rw-r--r-- 1 ugrad 2055 Jun 29 18:39 Vehicle.java~
+/home/ugrads/darren/cs1302/project2:/home/work/cs1302a

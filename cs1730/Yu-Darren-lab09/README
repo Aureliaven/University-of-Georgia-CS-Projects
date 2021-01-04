@@ -1,0 +1,11 @@
+Darren Yu (811009973)
+
+To compile:
+
+make compile
+
+To run:
+
+make runrectangle2
+OR
+make runstudent

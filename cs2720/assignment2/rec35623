@@ -1,0 +1,14 @@
+assignment2:
+total 256
+-rw-r--r-- 1 ugrad    224 Feb 21 00:19 inFile.txt
+-rw-r--r-- 1 ugrad    392 Feb 20 22:46 Makefile
+-rw-r--r-- 1 ugrad    595 Feb 21 00:41 outFile.txt
+-rw-r--r-- 1 ugrad   2612 Feb 21 00:40 PriorityQueue.cpp
+-rw-r--r-- 1 ugrad   2680 Feb 21 00:37 PriorityQueueDr.cpp
+-rw-r--r-- 1 ugrad 106168 Feb 21 00:40 PriorityQueueDr.o
+-rw-r--r-- 1 ugrad   1704 Feb 20 23:52 PriorityQueue.h
+-rw-r--r-- 1 ugrad  35912 Feb 21 00:40 PriorityQueue.o
+-rwxr-xr-x 1 ugrad  87759 Feb 21 00:40 queue
+-rw-r--r-- 1 ugrad     88 Feb 20 21:02 README.txt
+-rw-r--r-- 1 ugrad      0 Feb 21 00:41 rec35623
+/home/ugrads/darren/cs2720/assignment2:/home/work/cs2720a

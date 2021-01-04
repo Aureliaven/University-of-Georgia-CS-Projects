@@ -1,0 +1,67 @@
+project3:
+total 8
+drwxr-xr-x 3 ugrad 4096 Jul  5 12:52 bin
+-rw-r--r-- 1 ugrad    0 Jul  8 23:19 rec30990
+drwxr-xr-x 3 ugrad 4096 Jul  4 21:16 src
+
+project3/bin:
+total 4
+drwxr-xr-x 3 ugrad 4096 Jul  5 12:52 edu
+
+project3/bin/edu:
+total 4
+drwxr-xr-x 3 ugrad 4096 Jul  5 12:52 uga
+
+project3/bin/edu/uga:
+total 4
+drwxr-xr-x 4 ugrad 4096 Jul  7 17:30 cs1302
+
+project3/bin/edu/uga/cs1302:
+total 8
+drwxr-xr-x 2 ugrad 4096 Jul  7 17:30 test
+drwxr-xr-x 2 ugrad 4096 Jul  7 17:26 txtbuff
+
+project3/bin/edu/uga/cs1302/test:
+total 4
+-rw-r--r-- 1 ugrad 2041 Jul  8 22:53 TextLineTester.class
+
+project3/bin/edu/uga/cs1302/txtbuff:
+total 16
+-rw-r--r-- 1 ugrad  342 Jul  7 16:52 Editable.class
+-rw-r--r-- 1 ugrad 1912 Jul  8 22:48 EditableTextLine.class
+-rw-r--r-- 1 ugrad 1799 Jul  8 22:49 TextLine.class
+-rw-r--r-- 1 ugrad  662 Jul  5 12:52 TextLineIndexOutOfBoundsException.class
+
+project3/src:
+total 4
+drwxr-xr-x 3 ugrad 4096 Jul  4 13:51 edu
+
+project3/src/edu:
+total 4
+drwxr-xr-x 3 ugrad 4096 Jul  4 13:51 uga
+
+project3/src/edu/uga:
+total 4
+drwxr-xr-x 4 ugrad 4096 Jul  6 22:05 cs1302
+
+project3/src/edu/uga/cs1302:
+total 8
+drwxr-xr-x 2 ugrad 4096 Jul  8 23:01 test
+drwxr-xr-x 2 ugrad 4096 Jul  8 22:48 txtbuff
+
+project3/src/edu/uga/cs1302/test:
+total 12
+-rw-r--r-- 1 ugrad 1800 Jul  8 23:01 #TextLineTester.java#
+-rw-r--r-- 1 ugrad 1713 Jul  8 22:53 TextLineTester.java
+-rw-r--r-- 1 ugrad 1713 Jul  8 22:52 TextLineTester.java~
+
+project3/src/edu/uga/cs1302/txtbuff:
+total 44
+-rw-r--r-- 1 ugrad 1335 Jul  5 13:54 Editable.java
+-rw-r--r-- 1 ugrad 4427 Jul  8 22:48 EditableTextLine.java
+-rw-r--r-- 1 ugrad 4411 Jul  8 22:42 EditableTextLine.java~
+-rw-r--r-- 1 ugrad  438 Jul  4 14:39 TextLineIndexOutOfBoundsException.java
+-rw-r--r-- 1 ugrad  141 Jul  4 13:51 TextLineIndexOutOfBoundsException.java~
+-rw-r--r-- 1 ugrad 4665 Jul  8 22:40 TextLine.java
+-rw-r--r-- 1 ugrad 4663 Jul  8 22:17 TextLine.java~
+/home/ugrads/darren/cs1302/project3:/home/work/cs1302a

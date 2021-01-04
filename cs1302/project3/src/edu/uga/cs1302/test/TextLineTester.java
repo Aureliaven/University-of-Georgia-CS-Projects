@@ -1,0 +1,63 @@
+package edu.uga.cs1302.test;
+import edu.uga.cs1302.txtbuff.*;
+import java.util.Scanner;
+
+public class TextLineTester {
+
+    public static void main(String[] args) {
+
+	EditableTextLine line = new EditableTextLine("My name is Darren");
+	line.append("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" +
+		    "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
+	System.out.println(line);
+	System.exit(0);
+	
+    EditableTextLine tLine = new EditableTextLine("one line of text");
+    Scanner scan = new Scanner(System.in);
+    System.out.println("Enter a line of text");
+    EditableTextLine eLine = new EditableTextLine(scan.nextLine());
+    if (eLine.equals(tLine)) {
+	System.out.println("Equal");
+    } // if
+    else {
+	System.out.println("Different");
+    } // else
+    System.out.println(eLine.toString());
+    System.out.println("Length: " + eLine.length());
+    System.out.println("Capacity: " + eLine.capacity());
+    System.out.println("Enter a string of characters");
+    String str = scan.nextLine();
+    try {
+	System.out.println("Indices of the characters: ");
+	for (int i = 0; i < eLine.length(); i++) {
+	    if (eLine.indexOf(str, i) != -1) {
+		System.out.println(eLine.indexOf(str, i));
+		i = eLine.indexOf(str, i + str.length());
+	    } // if
+	} // for
+    } // try
+    catch (TextLineIndexOutOfBoundsException e) {
+	System.out.println(e.getMessage());
+    } // catch
+    eLine.append(str);
+    System.out.println(eLine.toString());
+    eLine.insert(0, str);
+    System.out.println(eLine.toString());
+    eLine.insert(str.length(), str);
+    System.out.println(eLine.toString());
+    try {
+	while (eLine.indexOf(str) != -1) {
+	   eLine.replace(eLine.indexOf(str), eLine.indexOf(str) +
+			      str.length(), "abc");
+	} // while
+    } // try
+    catch (TextLineIndexOutOfBoundsException e) {
+	System.out.println(e.getMessage());
+    } // catch
+    finally {
+	System.out.println(eLine.toString());
+    }
+    
+    } // main
+    
+} // class
